@@ -1,12 +1,13 @@
 '''
 The purpose of this script is to match the company's internal cash collection records with those of a partner bank.
 Manually done, this is a tedious task that leaves much room open for human error.
-This easy to use script asks the user to input the monthly sheets that they need data from given a provided Google Sheet
-from a partner bank and the specific date that they need from that sheet (ex. January '21, 01/01/2021).  The script then
+This easy to use script asks the user to input the monthly sheets that they need data from a Google Workbook
+provided by the partner bank and the specific date that they need from that sheet (ex. January '21, 01/01/2021).  The script then
 matches the corresponding data from the provided Google Sheet with the internal cash collection records from the
 internal database based on matching machine numbers and amounts. The matched data is then placed into an Excel workbook
 based on date placed on the user's desktop. Any discrepancies are denoted manually by the user and fixed accordingly
-with the partner bank. This script cut the process of matching records and noting discrepancies down from 10 hours to 30
+with the partner bank by the accounting department. 
+This script cut the process of matching records and denoting discrepancies down from 10 hours to 30
 minutes. All sensitive information has been replaced.
 '''
 import gspread
