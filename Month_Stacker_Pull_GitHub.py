@@ -3,7 +3,7 @@ The goal of this script is to pull customers who created multiple accounts (stac
 is a user agreement violation because it is a method of hiding money as to avoid identification. The script works by
 pulling all accounts created at machines in the past month and the times that they were created at (most stacked
 accounts were created within 1 hour of each other). The script then filters machines that have had two accounts
-created at it within the past month and further filters the accounts to those created within 30 minutes of each other. The
+created at it within the past month and further filters the accounts to those created within 1 hour of each other. The
 results are stored in an Excel workbook on the users desktop. The topography that the script uses to identify stackers
 pulls up some false positives, but has proven to pull over 1300 true stackers per month. This means that analysts could
 spend less time manually searching for stacker accounts on the database's web interface and more time properly
