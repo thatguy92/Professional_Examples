@@ -10,7 +10,7 @@ import mysql.connector
 import pathlib
 
 
-def month_100k():
+def month_high_volume():
 
     try:
         desktop = pathlib.Path.home() / 'Desktop'
